@@ -1,7 +1,7 @@
 {
-  "cubeHost": "127.0.0.1:1081",
+  "cubeHost": "http://127.0.0.1:1081",
   "email": {
-    "from": "Cube Reports <change@me.com>"
+    "from": "Cube Reports <change@me.com>",
     "service": "SendGrid",
     "auth": {
       "user": "user",
