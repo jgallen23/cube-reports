@@ -1,6 +1,4 @@
-
-
-
+#!/usr/bin/env node
 var argv = require('optimist')
   .usage('Send daily email reports\n$0 <config.json>')
   .demand(1)
