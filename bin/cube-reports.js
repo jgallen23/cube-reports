@@ -19,18 +19,7 @@ if (argv._.length == 1) {
   var reports = new Reports(file);
 
   if (argv.print) {
-    reports.fetch(function(reports) {
-      reports.forEach(function(report) {
-        console.log(report.name);
-        console.log('================');
-        report.metrics.forEach(function(metric) {
-          console.log('%s: %s', metric.name, metric.count);
-        });
-        console.log('');
-      });
-      
-    });
-    
+    reports.print();
   } else {
     reports.send(function() {
       console.log('Email Sent');
