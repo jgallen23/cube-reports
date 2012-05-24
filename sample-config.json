@@ -1,12 +1,17 @@
 {
   "cubeHost": "127.0.0.1:1081",
   "email": {
-
+    "from": "Cube Reports <change@me.com>"
+    "service": "SendGrid",
+    "auth": {
+      "user": "user",
+      "pass": "pass"
+    }
   },
   "reports": [
     {
       "name": "test",
-      "to": "junk@jga.me",
+      "to": "junk@me.com",
       "metrics": [
         { "name": "Requests", "expression": "sum(request)" },
         { "name": "Logins", "expression": "sum(login)" }
