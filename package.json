@@ -21,6 +21,7 @@
   "engines": {
     "node": "*"
   },
+  "main": "./lib/reports.js",
   "bin": { "cube-reports": "./bin/cube-reports.js" },
   "keywords": ["cube", "email", "report"]
 }
