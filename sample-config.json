@@ -1,5 +1,6 @@
 {
   "cubeHost": "http://127.0.0.1:1081",
+  "timezone": "America/Los_Angeles",
   "email": {
     "from": "Cube Reports <change@me.com>",
     "service": "SendGrid",

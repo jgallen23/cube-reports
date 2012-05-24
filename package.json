@@ -14,7 +14,8 @@
     "optimist": "*",
     "request": "*",
     "resistance": "*",
-    "strf": "*"
+    "strf": "*",
+    "time": "*"
   },
   "devDependencies": {
   },
