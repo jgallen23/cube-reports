@@ -1,0 +1,16 @@
+{
+  "cubeHost": "127.0.0.1:1081",
+  "email": {
+
+  },
+  "reports": [
+    {
+      "name": "test",
+      "to": "junk@jga.me",
+      "metrics": [
+        { "name": "Requests", "expression": "sum(request)" },
+        { "name": "Logins", "expression": "sum(login)" }
+      ]
+    }
+  ]
+}

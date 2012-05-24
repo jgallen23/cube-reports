@@ -1,0 +1,11 @@
+<h1>{{= name }}</h1>
+<table>
+  <tbody>
+    {{ metrics.forEach(function(metric) { }}
+      <tr>
+        <td>{{= metric.name }}</td>
+        <td>{{= metric.count }}</td>
+      </tr>
+    {{ }) }}
+  </tbody>
+</table>

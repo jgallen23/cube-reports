@@ -1,0 +1,26 @@
+{
+  "name": "cube-reports",
+  "author": "Greg Allen <@jgaui> (http://jga.me)",
+  "description": "an email reporting tool for cube",
+  "homepage": "https://github.com/jgallen23/cube-reports",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgallen23/cube-reports.git"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "nodemailer": "*",
+    "optimist": "*",
+    "request": "*",
+    "resistance": "*",
+    "strf": "*"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": "*"
+  },
+  "bin": { "cube-reports": "./bin/cube-reports.js" },
+  "keywords": ["cube", "email", "report"]
+}
