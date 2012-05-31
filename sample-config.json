@@ -15,7 +15,8 @@
       "to": "junk@me.com",
       "metrics": [
         { "name": "Requests", "expression": "sum(request)" },
-        { "name": "Logins", "expression": "sum(login)" }
+        { "name": "Logins", "expression": "sum(login)" },
+        { "name": "Errors", "expression": "sum(error.eq(type,'500'))" }
       ]
     }
   ]
