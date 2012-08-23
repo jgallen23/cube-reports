@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/jgallen23/cube-reports.png)](http://travis-ci.org/jgallen23/cube-reports)
 #Cube Reports
 
 This is a tool to help you send daily reports from your [cube](http://square.github.com/cube/) data.
