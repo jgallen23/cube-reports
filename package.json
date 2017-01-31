@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "ejs": "*",
-    "nodemailer": "*",
+    "nodemailer": ">=3.0.0",
     "optimist": "*",
     "request": "*",
     "resistance": "*",
