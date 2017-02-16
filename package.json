@@ -9,7 +9,7 @@
     "url": "https://github.com/jgallen23/cube-reports.git"
   },
   "dependencies": {
-    "ejs": "*",
+    "ejs": ">=2.5.6",
     "nodemailer": "*",
     "optimist": "*",
     "request": "*",
